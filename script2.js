@@ -29,7 +29,7 @@ var wormController = (function() {
             x_position: precedingSegment.x_position,
             y_position: precedingSegment.y_position,
             previous_x_pos: precedingSegment.previous_x_pos,
-            previous_y_pos: precedingSegment.previous_y_pos;
+            previous_y_pos: precedingSegment.previous_y_pos
         }
         return newSegment;
     }
@@ -46,7 +46,7 @@ var wormController = (function() {
             if(bodySegments.length > 0) {
                 bodySegments.push(generateNewSegment(bodySegments[bodySegments.length - 1]));
             } else {
-                bodySegments.push(generateNewSegment(wormHead);
+                bodySegments.push(generateNewSegment(wormHead));
             }
         }
     }
